@@ -1,0 +1,7 @@
+Method,Event score,History refinement,AP,AUPRC
+Proposed DLR,DLR fused,Chronos-2 / Ridge,0.4661,0.4661
+Compact Hurdle,Hurdle fused,Chronos-2 / Ridge,0.4582,0.4581
+"Logistic–XGBoost [22,27]",Logistic,None,0.3440,0.3439
+DLinear-DG [35],Learned gate,None,0.3019,0.3019
+Autoformer-DG [33],Learned gate,None,0.3342,0.3341
+iTransformer-DG [36],Learned gate,None,0.3146,0.3145

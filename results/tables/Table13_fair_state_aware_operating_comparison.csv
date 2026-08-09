@@ -1,0 +1,12 @@
+Method,System type,Avg. MAE/std,Avg. RMSE/std,FPR,FNR,F1_active,F1_zero,FP,FN
+Proposed,Complete system,0.6433,1.0063,0.1520,0.5066,0.5052,0.8415,3772,4156
+Compact Hurdle,Complete system,0.6308,1.0065,0.1148,0.5803,0.4751,0.8524,2849,4760
+"Logistic–XGBoost [22,27]",Complete system,0.6649,1.1046,0.0553,0.9098,0.1435,0.8415,1372,7463
+DLinear-DG [35],Learned event gate,0.6188,1.0685,0.0504,0.8690,0.2042,0.8491,1250,7128
+Autoformer-DG [33],Learned event gate,0.6496,1.0724,0.0733,0.8263,0.2490,0.8425,1820,6778
+iTransformer-DG [36],Learned event gate,0.6383,1.0777,0.0711,0.8503,0.2194,0.8407,1764,6975
+TimesFM-2.5 [41] + magnitude gate,Post-hoc magnitude gate,0.6386,1.0689,0.0902,0.7114,0.3696,0.8483,2238,5836
+Chronos-2 [40] + magnitude gate,Post-hoc magnitude gate,0.6624,1.0785,0.1137,0.7218,0.3430,0.8342,2821,5921
+Time-LLM [47] + magnitude gate,Post-hoc magnitude gate,0.7268,1.1072,0.1791,0.6911,0.3338,0.8012,4445,5669
+DLinear [35] + magnitude gate,Post-hoc magnitude gate,0.6915,1.0897,0.1494,0.7323,0.3113,0.8129,3709,6007
+iTransformer [36] + magnitude gate,Post-hoc magnitude gate,0.7036,1.1786,0.0736,0.9205,0.1221,0.8306,1828,7551

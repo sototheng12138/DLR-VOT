@@ -1,0 +1,6 @@
+Statistic 1,Value 1,Statistic 2,Value 2
+Source records,"1,032",Source dates,2023-11-12 to 2025-12-29
+Aligned period,"2023-01-01 to 2025-12-31 (1,096 days)",Aggregation,Sum by loading date
+Positive days (train/val./test),45 / 11 / 21,Recorded-positive days,77
+Recorded-zero days,"1,019",Recorded-zero rate,92.97%
+Positive range,"69,500 to 1,485,690",Positive median,"360,910"

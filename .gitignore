@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+.venv*/
+venv/
+venv*/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+*~
+*.swp
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Restricted data and derived pointwise outputs
+dataset/*.csv
+dataset/*.xlsx
+dataset/*.xls
+dataset/*.parquet
+data/*.csv
+data/*.xlsx
+data/*.parquet
+*.npy
+*.npz
+*.joblib
+*.pkl
+
+# Model artifacts
+checkpoints/
+artifacts/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Runs and generated files
+logs/
+results/generated/
+diagnostics/
+runs/
+wandb/
+*.log
+*.pid
+
+# Manuscript and submission files
+*.pdf
+*.doc
+*.docx
+*.zip
+*.7z
+*.tar
+*.tar.gz

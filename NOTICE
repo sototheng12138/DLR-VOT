@@ -1,0 +1,29 @@
+DLR–VOT
+Original components and modifications copyright 2026 Hesong Zhao, Li Wang,
+Xianghao Wang, Mengchen Wang, and Xiaoli Nie
+
+This product includes software derived from Time-LLM:
+https://github.com/KimMeen/Time-LLM
+
+Time-LLM acknowledges code adapted from:
+
+- Time-Series-Library, https://github.com/thuml/Time-Series-Library
+- One Fits All, https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All
+
+The Time-Series-Library MIT license is reproduced in
+`third_party/Time-Series-Library-LICENSE`.
+
+The Chronos-2 teacher is obtained separately from the Chronos Forecasting
+project, Copyright Amazon.com, Inc. or its affiliates:
+https://github.com/amazon-science/chronos-forecasting
+
+The iTransformer implementation is derived from the Time-Series-Library and
+the iTransformer project, Copyright (c) 2022 THUML @ Tsinghua University:
+https://github.com/thuml/iTransformer
+Its MIT license is reproduced in `third_party/iTransformer-LICENSE`.
+
+No LLaMA, Chronos, or other pretrained model weights are distributed in this
+repository. Their use is governed by the terms set by their respective owners.
+
+Files derived from Apache-licensed projects remain under the Apache License
+2.0. Third party components retain their own copyright and license notices.

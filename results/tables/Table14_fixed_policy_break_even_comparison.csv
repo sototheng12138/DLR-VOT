@@ -1,0 +1,4 @@
+Comparison (A vs B),ΔFP (A−B),ΔFN (A−B),λ*,Lower-loss region for A
+Proposed vs Compact,+923,-604,0.6544,λ < 0.6544
+Proposed vs All-zero,+3772,-4047,1.0729,λ < 1.0729
+Compact vs All-zero,+2849,-3443,1.2085,λ < 1.2085

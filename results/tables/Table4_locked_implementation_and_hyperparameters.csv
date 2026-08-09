@@ -1,0 +1,10 @@
+Item 1,Setting 1,Item 2,Setting 2,Item 3,Setting 3
+Frozen backbones,"2 × LLaMA-1 7B (huggyllama/llama-7b); 32 layers",Input / horizon / channels,96 / 48 / 4,Patch / stride / tokens,16 / 8 / 12
+Task-side d_model / d_ff,32 / 128,Reprogramming heads,8,Dropout / seed,0.1 / 2021
+Magnitude prototypes,"Vocabulary mapped; K=1,000; key dim. 128",Event prototypes,"Learned numerical anchors; K=1,000; key dim. 32",Sharing,No parameter or activation sharing
+Prompt,Default Time-LLM path (prompt_domain=0),Magnitude input,Multivariate mixing,Event input,Channel-wise samples
+Event score,Event head + history residual,History residual,Hidden dim. 64,Window head,"H=7 / 14 / 30 / 48; hidden dim. 64; training only"
+Magnitude training,"Masked auxiliary MAE; all: ≤50 epochs, 1e-3; active: ≤20 epochs, 1e-5",Event training,"Warm-up: ≤50 epochs, 1e-3; direct: ≤20 epochs, 1e-5",Refinement,"≤10 epochs, 2e-4; base frozen"
+Optimizer / schedule / WD,Adam / epochwise ×0.5 / 0,Batch (local / global),Magnitude 2 / 4; event 4 / 8,Archived neural runs,2 processes / bf16; inference batch 1
+Event / window weights,0.10 / 0.05,Event loss,"Asymmetric focal loss; w+=1.2, w-=1.0; γ+=1.0, γ-=2.0",History regularization,"Anchor/mean=0.03/0.03; margin=0.10"
+Teacher,Chronos-2; training only,History students,"4 Ridge students; α=1.0; fitted on training data only",Fusion weight,See Sections 3.1.2 and 3.1.4

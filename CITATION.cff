@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying manuscript."
+title: "DLR–VOT: Code for sparse railway freight forecasting"
+type: software
+version: 0.1.0
+date-released: 2026-08-09
+license: Apache-2.0
+authors:
+  - family-names: Zhao
+    given-names: Hesong
+  - family-names: Wang
+    given-names: Li
+  - family-names: Wang
+    given-names: Xianghao
+  - family-names: Wang
+    given-names: Mengchen
+  - family-names: Nie
+    given-names: Xiaoli
+preferred-citation:
+  type: article
+  title: "A Decoupled Large Language Model Reprogramming Framework with Validation-Selected Operating Thresholding for Sparse Railway Freight Forecasting"
+  year: 2026
+  authors:
+    - family-names: Zhao
+      given-names: Hesong
+    - family-names: Wang
+      given-names: Li
+    - family-names: Wang
+      given-names: Xianghao
+    - family-names: Wang
+      given-names: Mengchen
+    - family-names: Nie
+      given-names: Xiaoli

@@ -1,0 +1,6 @@
+Configuration,Setup,τ,Val. FPR,Test MAE/std,Test RMSE/std,Test FPR,Test FNR,Test F1_active,Test F1_zero
+Iron transfer,Iron checkpoint; no update,0.4993,0.1087,0.5870,1.8021,0.2516,0.7795,0.1204,0.8185
+50% adaptation,Iron checkpoint; 50% auxiliary data,0.5284,0.1099,0.5841,1.8001,0.2613,0.7678,0.1232,0.8127
+Full adaptation,Iron checkpoint; full auxiliary data,0.5552,0.1069,0.5904,1.7994,0.2704,0.7549,0.1267,0.8074
+Auxiliary training,Two-channel auxiliary model,0.6608,0.1058,0.5469,1.7955,0.4778,0.6524,0.1161,0.6571
+Gold sparse-rank,Single-channel sparse-rank model,0.5624,0.1050,0.5117,1.8033,0.1027,0.8898,0.1046,0.9023

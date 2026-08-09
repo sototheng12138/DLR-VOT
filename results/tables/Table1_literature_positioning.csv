@@ -1,0 +1,9 @@
+Study,Problem setting,Data,Method,Zero treatment,Risk awareness,Application
+"Li et al. [8]","China–Europe flow allocation","Multicommodity network flows","Capacity-constrained equilibrium","No state split","Capacity/congestion","Network planning"
+"Gabellini et al. [13]","3PL capacity forecasting","Shared 3PL operations","ML with operational loss","No state split","Empirical loss","Truck-space planning"
+"Lu et al. [14]","Sino–Europe demand forecasting","System-level demand factors","System dynamics","No state split","Policy sensitivity","Capacity planning"
+"Zhang and Zhao [15]","China–Europe volume forecasting","Annual/monthly aggregates","SARIMAX–BNN","No state split","Uncertainty","Medium-/long-term planning"
+"Peng et al. [18]","Rail cold-chain forecasting","Spatiotemporal rail demand","GraphARMA–GRU","No state split","Interpretability","Resource planning"
+"Türkmen et al. [24]","Intermittent-demand forecasting","Long-zero nonnegative series","Deep renewal process","Arrival–size split","Predictive distribution","Inventory planning"
+"Time-LLM [47]","General time-series forecasting","Multi-domain benchmarks","Frozen-LLM reprogramming","No state split","Forecast error","Forecast transfer"
+"DLR–VOT","Daily sparse freight forecasting","Four zero-heavy daily channels","Dual-stream reprogramming + VOT","State–magnitude split","FPR budget + FP:FN scenarios","Daily freight planning support"

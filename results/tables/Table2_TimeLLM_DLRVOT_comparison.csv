@@ -1,0 +1,9 @@
+Dimension,Time-LLM [47],DLR–VOT
+Task,"General continuous forecasting","Zero-heavy freight forecasting with separate state and magnitude outputs"
+Representation,"One interface for patch reprogramming with a frozen LLM","Separate interfaces and two forward paths through frozen LLMs"
+Forecast path,"One continuous forecasting path","Two separately trained task streams"
+Zero handling,"Zeros remain part of the continuous target","The event score and candidate magnitude are produced separately"
+Event refinement,"No separate refinement of recorded event scores","Chronos-2 generates targets only from training data, and fitted Ridge models refine event scores on validation and test data"
+Threshold,"No dedicated operating selector","One global threshold maximizes validation F1_active under an FPR budget and is fixed before test evaluation"
+Inference,"Native continuous output","Two LLM forward passes, fitted Ridge outputs, and a retain-or-zero forecast"
+Evaluation,"Continuous forecasting accuracy","Magnitude and state metrics, calibration, and illustrative FP:FN scenarios"

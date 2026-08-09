@@ -1,0 +1,18 @@
+Table,Caption
+Table 3,Daily recorded-state sparsity and chronological drift across commodity channels.
+Table 4,Implementation and training settings of DLR–VOT.
+Table 5,Threshold-free event-score comparison on the locked test set.
+Table 6,Event-score calibration using a validation-fitted Platt map.
+Table 7,Threshold-selection comparison with locked test outcomes.
+Table 8,Illustrative error-weight scenarios for locked selectors.
+Table 9,DLR structural controls and component ablations.
+Table 10,Validation-set sensitivity to the event-score fusion weight ω.
+Table 11,Four-channel magnitude comparison under native output rules.
+Table 12,Pooled state comparison under native output rules.
+Table 13,Pooled state comparison under validation-locked operating rules.
+Table 14,Illustrative break-even FP:FN weight ratios for locked policies.
+Table 15,Paired block-bootstrap intervals for differences between DLR–VOT and Complete Compact.
+Table 16,Complete-system performance and inference cost across model capacities.
+Table 17,Gold-concentrate data alignment and recorded sparsity.
+Table 18,Gold-concentrate forecasting comparison under severe sparsity.
+Table 19,Exploratory comparison of gold-concentrate configurations.

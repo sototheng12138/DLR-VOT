@@ -1,0 +1,4 @@
+System,Backbone,Avg. MAE/std,Avg. RMSE/std,FPR,FNR,F1_active,F1_zero,Resident params,Task-side params,Latency (ms),Peak memory (MiB),Profiled FLOPs
+Compact Hurdle,Compact Transformer,0.6308,1.0065,0.1148,0.5803,0.4751,0.8524,1.020 M,1.020 M,2.98 ± 0.08,11.22,77.731 M
+Proposed-3B,OpenLLaMA-3B-v2,0.6472,1.0055,0.1446,0.5220,0.4990,0.8436,6.699 B,50.357 M,86.29 ± 1.02,"13,473.60",8.827 T
+Proposed-7B,LLaMA-7B,0.6433,1.0063,0.1520,0.5066,0.5052,0.8415,13.269 B,54.696 M,143.51 ± 0.87,"26,219.74",18.181 T

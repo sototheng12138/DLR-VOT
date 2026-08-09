@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dlr-vot"
+version = "0.1.0"
+description = "Operating threshold selection for sparse freight forecasts"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Hesong Zhao"},
+  {name = "Li Wang"},
+  {name = "Xianghao Wang"},
+  {name = "Mengchen Wang"},
+  {name = "Xiaoli Nie"},
+]
+dependencies = [
+  "numpy>=1.26,<2",
+  "pandas>=1.5,<3",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9", "ruff>=0.14,<0.15"]
+
+[tool.setuptools.packages.find]
+include = ["dlr_vot*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
