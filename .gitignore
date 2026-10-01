@@ -65,3 +65,6 @@ wandb/
 *.7z
 *.tar
 *.tar.gz
+
+# Public framework figure linked from the README
+!/assets/figures/fig1-framework.pdf

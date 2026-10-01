@@ -4,7 +4,11 @@ This repository contains the code and experimental protocol for:
 
 > *A Decoupled Large Language Model Reprogramming Framework with Validation-Selected Operating Thresholding for Sparse Railway Freight Forecasting*
 
-DLR estimates freight magnitude and recorded activity in two separately trained streams. VOT selects an operating threshold on the validation set under a stated false positive rate budget. The selected threshold is fixed before the test set is evaluated, and the final rule either retains the candidate magnitude or assigns zero.
+DLR estimates freight magnitude and recorded activity in two separately trained streams. VOT selects an operating threshold on the validation set under a stated false positive rate budget. The selected threshold is fixed before the test set is evaluated, and the final rule either retains the candidate magnitude or assigns zero. This process is illustrated in the framework below.
+
+![DLR–VOT framework with separate magnitude and event streams, followed by operating threshold selection on validation data.](assets/figures/fig1-framework.png)
+
+*Figure 1. DLR–VOT framework: (a) decoupled LLM reprogramming; (b) validation-selected operating thresholding.* [View the original PDF](assets/figures/fig1-framework.pdf).
 
 ## What is included
 
